@@ -1,13 +1,20 @@
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import './App.css';
+import HomePage from "./pages/HomePage";
+import SearchPage from "./pages/SearchPage";
+import ShowPages from "./pages/ShowPages";
+
 function App() {
   return (
-    <section className="app_main_container">
-      <div className="container">
-        <h1> Lastest Films</h1>
-      </div>
-    
-    </section>
+        <BrowserRouter>
+      {/* <Header /> */}
+      <Switch>
+        <Route path="/" exact component={HomePage} />
+        <Route path="/search" component={SearchPage} />
+        <Route path="/shows/:id" component={ShowPages} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
