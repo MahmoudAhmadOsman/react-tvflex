@@ -1,6 +1,8 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import './App.css';
+import Header from "./components/layout/Header";
+ 
 import HomePage from "./pages/HomePage";
 import SearchPage from "./pages/SearchPage";
 import ShowPages from "./pages/ShowPages";
@@ -8,7 +10,7 @@ import ShowPages from "./pages/ShowPages";
 function App() {
   return (
         <BrowserRouter>
-      {/* <Header /> */}
+ <Header />
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/search" component={SearchPage} />
