@@ -12,7 +12,7 @@ const Header = () => {
           </Link>
           <div className="navbar">
             <Link to="/search" className="navbar-link">
-              search
+              Search
             </Link>
           </div>
         </div>
