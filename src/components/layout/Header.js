@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 
 const Header = () => {
-    return (
-        <header>
-            <div className="container">
+  return (
+    <header>
+      <div className="container">
         <div className="row items-center justify-between">
           <Link className="brand" to="/">
             <img src={logo} alt="Logo" />
@@ -17,8 +17,8 @@ const Header = () => {
           </div>
         </div>
       </div>
-        </header>
-    )
+    </header>
+  )
 }
 
 export default Header
