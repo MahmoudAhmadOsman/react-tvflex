@@ -1,14 +1,8 @@
-import React from 'react'
+import React from "react";
+import Search from "../components/search/Search";
 
 const HomePage = () => {
-    return (
-        <section className="home-page">
-            <div className="container">
-                <h1>Home Page</h1>
-            </div>
-            
-        </section>
-    )
-}
+    return <Search size="large" />;
+};
 
-export default HomePage
+export default HomePage;
