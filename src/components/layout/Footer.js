@@ -5,8 +5,8 @@ const Footer = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <p>&copy; Copyright 2021. All rights reserved. Development by
-            <a href="http://mahmoudosman.com">Mahmoud Osman</a>
+          <p>&copy; Copyright 2021. All rights reserved. Development by &nbsp;
+            <a href="http://mahmoudosman.com" className="m-link"> Mahmoud Osman</a>
             </p>
         </div>
       </div>
