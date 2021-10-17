@@ -1,13 +1,14 @@
-import React from 'react'
-import ShowslList from '../components/shows/ShowsList'
-import Show from '../components/shows/Show'
+import React from "react";
+import ShowslList from "../components/shows/ShowsList";
+import Show from "../components/shows/Show";
 
 const ShowPages = () => {
-    return <>
-        <Show />
-             <ShowslList />
-        
-        </>
-}
+	return (
+		<>
+			<Show />
+			<ShowslList />
+		</>
+	);
+};
 
-export default ShowPages
+export default ShowPages;
