@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Show = () => {
 	return (
@@ -30,16 +31,17 @@ const Show = () => {
 								<strong>Rating:</strong> 5.8
 							</div>
 							<div className="show-info_site mb-1">
-								<a href="#" target="_blank" className="text-danger">
+								<Link to="#" target="_blank" className="text-danger">
 									<b>Official Site:</b>
-								</a>
+								</Link>
 							</div>
 
 							<div className="show-info_about d-flex">
 								<b>Story:</b>
 								<p>
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Dolor, quidem.
+									Dolor, quidem. Lorem, ipsum dolor sit amet consectetur
+									adipisicing elit. Mollitia, ea.
 								</p>
 							</div>
 						</div>

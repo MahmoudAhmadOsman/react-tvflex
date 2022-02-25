@@ -192,6 +192,7 @@ header {
 }
 .search-form input {
 	flex: 1;
+	    border-radius: 50px 0px 0px 50px;
 }
 /* *** Loader ***  */
 .loader {
@@ -360,3 +361,24 @@ header {
 	border-radius: 5px;
 	margin-right: 1rem;
 }
+
+
+/* find-bg style */
+.find-bg{
+	    background-color: #1d1d1dba;
+    color: #fff;
+    padding: 20px 50px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+ 
+ /* Footer */
+ .footer{
+	 position: relative;
+	 display: block;
+	 padding: 10px;
+ }
+ .footer p{
+	 text-align: center;
+	 font-size: 12px;
+ }

@@ -8,7 +8,7 @@ const Search = (props) => {
 			? "col-2-4 search-content mx-auto mh-100"
 			: "col-2-4 search-content mx-auto pt-6 pb-2";
 
-	//UseState for search input - for 2 way binding
+	//UseState for search input -  2 way binding
 	const [searchTerm, setSearchTerm] = useState("");
 
 	return (
@@ -16,11 +16,11 @@ const Search = (props) => {
 			<div className="container">
 				<div className="row">
 					<div className={styleClasses}>
-						{/* This text show only on the homepage */}
+						{/* Show only on the homepage */}
 						{props.size === "large" ? (
-							<div>
-								<h1>Find your next show</h1>
-								<p>Search in the box your favorite tv show and films!</p>
+							<div className="find-bg">
+								<h1>Find your favorite show.</h1>
+								<p>Try searching your favorite tv show and films!</p>
 							</div>
 						) : null}
 
